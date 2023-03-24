@@ -2,10 +2,10 @@
     "name": "Workshops in Creative Coding Creatures",
     "short_name": "WCC Creatures",
     "theme_color": "#371bd3",
-    "background_color": "#fafafa",
+    "background_color": "#371bd3",
     "display": "fullscreen",
     "scope": "/creatures-web-app-simple/",
-    "start_url": "/creatures-web-app-simple/?fullscreen=true",
+    "start_url": "/creatures-web-app-simple/",
     "icons": [
        {
         "src": "assets/icons/icon-48x48.png",

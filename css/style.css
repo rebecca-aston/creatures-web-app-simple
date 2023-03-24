@@ -101,6 +101,7 @@ main{
     margin:0;
     border-radius: 10px 10px 0  0;
     width:100%;
+    padding: 20px 0;
   }
   .button{
     margin: 0 auto;
