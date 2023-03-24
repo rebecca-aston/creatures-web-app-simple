@@ -165,6 +165,21 @@ function handleButtonPress()
   
 }
 
+function keyPressed() {
+  if (key == 'f') {
+    let fs = fullscreen();
+    fullscreen(!fs);
+    console.log(fs,!fs);
+    if(!fs == true){
+      creatures = [];
+      for(let i = 0; i < 50; i++){
+        let c = new Creature(random(width), random(height));
+        creatures.push(c);
+      }
+    }
+  }
+}
+
 function windowResized() {
 
   resizeCanvas(windowWidth, windowHeight);
