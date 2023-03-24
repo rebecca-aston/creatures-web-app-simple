@@ -12,13 +12,20 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8" />
 
-    
   </head>
   <body>
     <main>
       <div id="sketch-container"></div>
       <div id="gui-container"></div>
     </main>
+    <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/creatures-web-app-simple/javascript/sw.js',
+          {scope: '/creatures-web-app-simple/'}
+        )
+      }
+    </script>
     <script src="javascript/sketch.js"></script>
   </body>
 </html>
