@@ -3,7 +3,7 @@
     "short_name": "WCC Creatures",
     "theme_color": "#371bd3",
     "background_color": "#fafafa",
-    "display": "standalone",
+    "display": "minimal-ui",
     "scope": "/creatures-web-app-simple/",
     "start_url": "/creatures-web-app-simple/",
     "icons": [
