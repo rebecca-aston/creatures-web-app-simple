@@ -5,7 +5,7 @@
     "background_color": "#fafafa",
     "display": "fullscreen",
     "scope": "/creatures-web-app-simple/",
-    "start_url": "/creatures-web-app-simple/",
+    "start_url": "/creatures-web-app-simple/?fullscreen=true",
     "icons": [
        {
         "src": "assets/icons/icon-48x48.png",
