@@ -29,3 +29,5 @@ In addition to making sure that the "scope" property and "start_url" property ma
 4. The "theme_color" will set the color of the app bar in standalone and mimimal-ui mode.
 5. Read more about webmanifests [here](https://web.dev/add-manifest/?utm_source=devtools).
 
+
+NOTE: If you make changes to your webmanifest, you might need to uninstall and reinstall your app on your device to see the changes. 
