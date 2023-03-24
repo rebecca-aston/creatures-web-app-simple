@@ -4,8 +4,8 @@
     "theme_color": "#1976d2",
     "background_color": "#fafafa",
     "display": "standalone",
-    "scope": "/creatures-web-app-simple",
-    "start_url": "/creatures-web-app-simple",
+    "scope": "/creatures-web-app-simple/",
+    "start_url": "/creatures-web-app-simple/",
     "icons": [
        {
         "src": "assets/icons/icon-48x48.png",
