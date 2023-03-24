@@ -1,7 +1,7 @@
 {
     "name": "Workshops in Creative Coding Creatures",
     "short_name": "WCC Creatures",
-    "theme_color": "#1976d2",
+    "theme_color": "#371bd3",
     "background_color": "#fafafa",
     "display": "standalone",
     "scope": "/creatures-web-app-simple/",
