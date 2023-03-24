@@ -1,0 +1,109 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+body{
+  background: white;
+}
+
+main{
+  position:fixed;
+  width: 100%;
+  height:100%;
+}
+
+#sketch-container{
+  width: 100%;
+  height: 100%;
+}
+
+#gui-container{
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+  z-index: 100;
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  background-color: rgb(255,255,255,0.7);
+}
+
+/*styled button */
+.button{
+  background-color: #371bd3;
+  border: solid 1px #371bd3;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  min-width: 200px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color:white;
+  color: #371bd3;
+}
+
+.button.inactive{
+  cursor:default;
+  background-color: lightgray;
+  border-color: lightgray;
+  ;
+  color: white;
+}
+
+
+/*styled slider */
+/* https://www.w3schools.com/howto/howto_js_rangeslider.asp */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  margin:30px 0;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #371bd3;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #371bd3;
+  cursor: pointer;
+}
+
+/* Media Queries for responsive design */
+
+/* Custom to match our canvas size */
+@media screen and (max-width: 500px) {
+  #gui-container{
+    left:0;
+    margin:0;
+    border-radius: 10px 10px 0  0;
+    width:100%;
+  }
+  .button{
+    margin: 0 auto;
+    display: block;
+  }
+}
